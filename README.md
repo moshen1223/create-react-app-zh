@@ -149,7 +149,7 @@ my-app/
 
 ## 如何更新到新版本?
 
-请参阅 [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#updating-to-new-releases) 以了解相关信息。
+请参阅 [用户指南](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README-zh.md#更新到新版本) 以了解相关信息。
 
 ## 理念
 
@@ -197,7 +197,7 @@ my-app/
 
 未来可能会添加一些稳定的,对大多数React应用有用的, 不与现有的工具冲突, 并且不需要引入额外配置的功能.
 
-## 内部都有什么的？
+## 内部都有什么？
 
 创建React应用程序使用的工具可能会改变.
 Currently it is a thin layer on top of many amazing community projects, such as:
