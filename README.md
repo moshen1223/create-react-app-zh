@@ -6,7 +6,7 @@
 无构建配置下创建React应用。
 
 * [入门](#入门) – 如何创建新应用。
-* [用户指南](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – 如何根据引导开发React应用。
+* [用户指南(未翻)](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – 如何根据引导开发React应用。
 
 创建在macOS、 Windows、和Linux下通用的React应用<br>
 如遇到问题请[提交issue](https://github.com/facebookincubator/create-react-app/issues/new).
