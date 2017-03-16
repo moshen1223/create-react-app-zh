@@ -6,7 +6,7 @@
 无构建配置下创建React应用。
 
 * [入门](#入门) – 如何创建新应用。
-* [用户指南](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – 如何根据引导开发React应用。
+* [用户指南](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README-zh.md) – 如何根据引导开发React应用。
 
 创建在macOS、 Windows、和Linux下通用的React应用<br>
 如遇到问题请[提交issue](https://github.com/facebookincubator/create-react-app/issues/new).
@@ -111,11 +111,11 @@ my-app/
 
 ## 用户指南
 
-[用户指南(未翻)](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) 包括不同话题的信息，例如：
+[用户指南](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README-zh.md) 包括不同话题的信息，例如：
 
-- [Updating to New Releases](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#updating-to-new-releases)
-- [Folder Structure](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#folder-structure)
-- [Available Scripts](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#available-scripts)
+- [更新到新版本](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README-zh.md#更新到新版本)
+- [目录结构](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README-zh.md#目录结构)
+- [可用脚本](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README-zh.md#可用脚本)
 - [Supported Language Features and Polyfills](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#supported-language-features-and-polyfills)
 - [Syntax Highlighting in the Editor](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#syntax-highlighting-in-the-editor)
 - [Displaying Lint Output in the Editor](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#displaying-lint-output-in-the-editor)
