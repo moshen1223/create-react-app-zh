@@ -177,7 +177,7 @@ my-app/
 
 ### 转换为一个自定义设置
 
-**如果你是一个超级用户** 并且你不满意默认的配置, 你可以使用“eject”工具并且使用它作为模板生成器.
+**如果你是一个资深用户** 并且你不满意默认的配置, 你可以使用“eject”工具并且使用它作为模板生成器.
 
 运行 `npm run eject` 正确的拷贝所有配置文件和传递性依赖(Webpack, Babel, ESLint, etc)到你的项目中,如此你可以完全的控制他们. 像`npm start`和`npm run build` 命令让然可以工作, 但是他们指向复制的版本因此你可以操作他们.在这个版本上, 处理的是自己的.
 
@@ -197,7 +197,7 @@ my-app/
 
 未来可能会添加一些稳定的,对大多数React应用有用的, 不与现有的工具冲突, 并且不需要引入额外配置的功能.
 
-## 什么是内部?
+## 内部都有什么的？
 
 创建React应用程序使用的工具可能会改变.
 Currently it is a thin layer on top of many amazing community projects, such as:
@@ -216,8 +216,8 @@ All of them are transitive dependencies of the provided npm package.
 我们很愿意你的帮助来传递 `create-react-app`! 有关我们正在寻找的和如何开始学习的更多信息请看[CONTRIBUTING.md](CONTRIBUTING.md).
 ## React Native
 
-寻找一些相似的, 如果没有React Native?<br>
-检验 [创建 React Native 应用](https://github.com/react-community/create-react-native-app/).
+在寻找一些类似的, 有没有关于React Native的?<br>
+请参阅[Create React Native App](https://github.com/react-community/create-react-native-app/).
 
 ## 感谢
 
