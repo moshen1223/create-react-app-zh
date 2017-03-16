@@ -1,6 +1,6 @@
 # 创建React应用 [![Build Status](https://travis-ci.org/facebookincubator/create-react-app.svg?branch=master)](https://travis-ci.org/facebookincubator/create-react-app)
 
-- [English](https://github.com/facebookincubator/create-react-app)
+- [English](https://github.com/facebookincubator/create-react-app/blob/master/README.md)
 - 简体中文
 
 无构建配置下创建React应用。
