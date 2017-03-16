@@ -6,7 +6,7 @@
 无构建配置下创建React应用。
 
 * [入门](#入门) – 如何创建新应用。
-* [用户指南(未翻)](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – 如何根据引导开发React应用。
+* [用户指南](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – 如何根据引导开发React应用。
 
 创建在macOS、 Windows、和Linux下通用的React应用<br>
 如遇到问题请[提交issue](https://github.com/facebookincubator/create-react-app/issues/new).
@@ -28,7 +28,7 @@ npm start
 
 ### 立即开始
 
-你 **不** 需要安装或配置Webpack、Babel这类工具<br>
+你 **不** 需要安装或配置像Webpack、Babel这类工具<br>
 这些工具是预设好并隐藏的，因此你可以专注于代码。
 
 仅需要创建个项目, 然后就可以继续了。
@@ -45,7 +45,7 @@ npm start
 npm install -g create-react-app
 ```
 
-**你机器上需要至少 4 以上版本的Node**.
+**你机器上的Node版本需要>=4**.
 
 **为了更快的安装速度和更好的磁盘利用，我们强烈建议使用 6 以上版本的Node和 3 以上版本的npm。** 你可以通过 [nvm](https://github.com/creationix/nvm#usage) 在不同的项目之间轻松地切换Node版本。
 
@@ -153,7 +153,7 @@ my-app/
 
 ## 理念
 
-* **单一依赖:** 只有一个构建依赖。 它使用了Webpack，Babel，ESLint和一些其他惊人项目，但提供了它们之上的体验。(译者注：屏蔽了这些工具的具体使用细节，体验更友好)
+* **单一依赖:** 只构建一个依赖。 它使用了Webpack，Babel，ESLint和一些其他惊人项目，但提供了它们之上的体验。(译者注：屏蔽了这些工具的具体使用细节，体验更友好)
 
 * **无需配置:** 你不需要配置任何东西。 开发和生产的构建所需的合理配置都已经替你处理好了，因此可以专心撸代码了。
 
@@ -168,37 +168,38 @@ my-app/
 * 一个能检查出常见错误的开发服务器。
 * 直接从JavaScript导入CSS和图像文件。
 * 自动添加CSS前缀，因此不再需要`-webkit`或其它前缀。
-* A `build` script to bundle JS, CSS, and images for production, with sourcemaps.
+* 通过一个`build`脚本绑定Js、CSS和image到你的产品, 使用 Source map.
 
-**The feature set is intentionally limited**. It doesn’t support advanced features such as server rendering or CSS modules. The tool is also **non-configurable** because it is hard to provide a cohesive experience and easy updates across a set of tools when the user can tweak anything.
+**功能设置被有意限制**. 不支持高级功能,例如服务端渲染或者CSS模块. 这写工具是 **不可配置的** 因为当用户可能调整什么时，它很难提供一致的体验和通过一组工具完成更新。
 
-**You don’t have to use this.** Historically it has been easy to [gradually adopt](https://www.youtube.com/watch?v=BF58ZJ1ZQxY) React. However many people create new single-page React apps from scratch every day. We’ve heard [loud](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4) and [clear](https://twitter.com/thomasfuchs/status/708675139253174273) that this process can be error-prone and tedious, especially if this is your first JavaScript build stack. This project is an attempt to figure out a good way to start developing React apps.
+**你可以不用这个.** 从以往经验来看，[逐步采用](https://www.youtube.com/watch?v=BF58ZJ1ZQxY) React很容易. 然而很多人每天匆匆的创建新的React单页面应用. 我们[响亮](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4)、 [清晰](https://twitter.com/thomasfuchs/status/708675139253174273) 地听到这个处理可能容易出错而且繁琐, 尤其是如果这个是你第一个JavaScript构建的栈.
+这个项目是一个试图找出一个好的方法开始开发React应用程序。
 
-### Converting to a Custom Setup
+### 转换为一个自定义设置
 
-**If you’re a power user** and you aren’t happy with the default configuration, you can “eject” from the tool and use it as a boilerplate generator.
+**如果你是一个超级用户** 并且你不满意默认的配置, 你可以使用“eject”工具并且使用它作为模板生成器.
 
-Running `npm run eject` copies all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. Commands like `npm start` and `npm run build` will still work, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.
+运行 `npm run eject` 正确的拷贝所有配置文件和传递性依赖(Webpack, Babel, ESLint, etc)到你的项目中,如此你可以完全的控制他们. 像`npm start`和`npm run build` 命令让然可以工作, 但是他们指向复制的版本因此你可以操作他们.在这个版本上, 处理的是自己的.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**注意: 这是一个单向操作. 一旦`eject`了, 你不能撤回!**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+你不必一直使用`eject`. 这个管理功能设置适合于中小部署, 你不应该感觉有义务使用这个功能. 然而我们知道如果你不能自定义这个工具将不会被使用.
 
-## Limitations
+## 限制性
 
-Some features are currently **not supported**:
+当前有些功能 **不支持**:
 
-* Server rendering.
-* Some experimental syntax extensions (e.g. decorators).
-* CSS Modules.
-* Importing LESS or Sass directly ([but you still can use them](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)).
-* Hot reloading of components.
+* 服务端渲染.
+* 一些实验性语法扩展 (e.g. 修饰器).
+* CSS 模块.
+* 直接导入 LESS 或者 Sass ([但是你仍然可以使用它们](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)).
+* 组件的热更新.
 
-Some of them might get added in the future if they are stable, are useful to majority of React apps, don’t conflict with existing tools, and don’t introduce additional configuration.
+未来可能会添加一些稳定的,对大多数React应用有用的, 不与现有的工具冲突, 并且不需要引入额外配置的功能.
 
-## What’s Inside?
+## 什么是内部?
 
-The tools used by Create React App are subject to change.
+创建React应用程序使用的工具可能会改变.
 Currently it is a thin layer on top of many amazing community projects, such as:
 
 * [webpack](https://webpack.github.io/) with [webpack-dev-server](https://github.com/webpack/webpack-dev-server), [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin) and [style-loader](https://github.com/webpack/style-loader)
@@ -210,27 +211,26 @@ Currently it is a thin layer on top of many amazing community projects, such as:
 
 All of them are transitive dependencies of the provided npm package.
 
-## Contributing
+## 贡献
 
-We'd love to have your helping hand on `create-react-app`! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
-
+我们很愿意你的帮助来传递 `create-react-app`! 有关我们正在寻找的和如何开始学习的更多信息请看[CONTRIBUTING.md](CONTRIBUTING.md).
 ## React Native
 
-Looking for something similar, but for React Native?<br>
-Check out [Create React Native App](https://github.com/react-community/create-react-native-app/).
+寻找一些相似的, 如果没有React Native?<br>
+检验 [创建 React Native 应用](https://github.com/react-community/create-react-native-app/).
 
-## Acknowledgements
+## 感谢
 
-We are grateful to the authors of existing related projects for their ideas and collaboration:
+我们感谢现有相关项目的作者的想法和合作:
 
 * [@eanplatter](https://github.com/eanplatter)
 * [@insin](https://github.com/insin)
 * [@mxstbr](https://github.com/mxstbr)
 
-## Alternatives
+## 备选方案
 
-If you don’t agree with the choices made in this project, you might want to explore alternatives with different tradeoffs.<br>
-Some of the more popular and actively maintained ones are:
+在这个项目里如果你不同意做出选择, 你可能想通过不同的权衡寻找替代品.<br>
+下面这些很受欢迎并且被积极维护:
 
 * [insin/nwb](https://github.com/insin/nwb)
 * [mozilla-neutrino/neutrino-dev](https://github.com/mozilla-neutrino/neutrino-dev)
@@ -238,7 +238,7 @@ Some of the more popular and actively maintained ones are:
 * [zeit/next.js](https://github.com/zeit/next.js)
 * [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
 
-Notable alternatives also include:
+值得注意的包括:
 
 * [enclave](https://github.com/eanplatter/enclave)
 * [motion](https://github.com/motion/motion)
@@ -250,5 +250,5 @@ Notable alternatives also include:
 * [dev-toolkit](https://github.com/stoikerty/dev-toolkit)
 * [tarec](https://github.com/geowarin/tarec)
 
-You can also use module bundlers like [webpack](http://webpack.github.io) and [Browserify](http://browserify.org/) directly.<br>
-React documentation includes [a walkthrough](https://facebook.github.io/react/docs/package-management.html) on this topic.
+你可以直接使用像 [webpack](http://webpack.github.io) 和 [Browserify](http://browserify.org/) 模块打包.<br>
+React文档包括这个话题的[演示](https://facebook.github.io/react/docs/package-management.html).
