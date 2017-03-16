@@ -1,23 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+此项目由 [创建React应用](https://github.com/facebookincubator/create-react-app)引导。
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+你可以从下面找到如何执行常见任务的有关信息。<br>
+你可以从[这里](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README.md)找到本指南的最新版本 。
 
-## Table of Contents
+## 目录
 
-- [Updating to New Releases](#updating-to-new-releases)
-- [Sending Feedback](#sending-feedback)
-- [Folder Structure](#folder-structure)
-- [Available Scripts](#available-scripts)
+- [更新到新版本](#更新到新版本)
+- [发送反馈](#发送反馈)
+- [目录结构](#目录结构)
+- [可用脚本](#可用脚本)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
-- [Supported Language Features and Polyfills](#supported-language-features-and-polyfills)
-- [Syntax Highlighting in the Editor](#syntax-highlighting-in-the-editor)
-- [Displaying Lint Output in the Editor](#displaying-lint-output-in-the-editor)
-- [Debugging in the Editor](#debugging-in-the-editor)
-- [Changing the Page `<title>`](#changing-the-page-title)
+- [支持的语言特性和Polyfills](#支持的语言特性和Polyfills)
+- [编辑器中的语法高亮](#编辑器中的语法高亮)
+- [编辑器中显示lint输出](#编辑器中显示lint输出)
+- [在编辑器中调试](#在编辑器中调试)
+- [改变页面 `<title>`](#改变页面title)
 - [Installing a Dependency](#installing-a-dependency)
 - [Importing a Component](#importing-a-component)
 - [Adding a Stylesheet](#adding-a-stylesheet)
@@ -83,7 +83,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
   - [`npm run build` fails on Heroku](#npm-run-build-fails-on-heroku)
 - [Something Missing?](#something-missing)
 
-## Updating to New Releases
+## 更新到新版本
 
 Create React App is divided into two packages:
 
@@ -100,11 +100,11 @@ In most cases bumping the `react-scripts` version in `package.json` and running 
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
 
-## Sending Feedback
+## 发送反馈
 
 We are always open to [your feedback](https://github.com/facebookincubator/create-react-app/issues).
 
-## Folder Structure
+## 目录结构
 
 After creation, your project should look like this:
 
@@ -141,7 +141,7 @@ Read instructions below for using assets from JavaScript and HTML.
 You can, however, create more top-level directories.<br>
 They will not be included in the production build so you can use them for things like documentation.
 
-## Available Scripts
+## 可用脚本
 
 In the project directory, you can run:
 
@@ -178,7 +178,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Supported Language Features and Polyfills
+## 支持的语言特性和Polyfills
 
 This project supports a superset of the latest JavaScript standard.<br>
 In addition to [ES6](https://github.com/lukehoban/es6features) syntax features, it also supports:
@@ -201,11 +201,11 @@ Note that **the project only includes a few ES6 [polyfills](https://en.wikipedia
 
 If you use any other ES6+ features that need **runtime support** (such as `Array.from()` or `Symbol`), make sure you are including the appropriate polyfills manually, or that the browsers you are targeting already support them.
 
-## Syntax Highlighting in the Editor
+## 编辑器中的语法高亮
 
 To configure the syntax highlighting in your favorite text editor, head to the [relevant Babel documentation page](https://babeljs.io/docs/editors) and follow the instructions. Some of the most popular editors are covered.
 
-## Displaying Lint Output in the Editor
+## 编辑器中显示lint输出
 
 >Note: this feature is available with `react-scripts@0.2.0` and higher.
 
@@ -252,7 +252,7 @@ npm install -g eslint-config-react-app@0.3.0 eslint@3.8.1 babel-eslint@7.0.0 esl
 
 We recognize that this is suboptimal, but it is currently required due to the way we hide the ESLint dependency. The ESLint team is already [working on a solution to this](https://github.com/eslint/eslint/issues/3458) so this may become unnecessary in a couple of months.
 
-## Debugging in the Editor
+## 在编辑器中调试
 
 **This feature is currently only supported by [Visual Studio Code](https://code.visualstudio.com) editor.**
 
@@ -281,7 +281,7 @@ Then add the block below to your `launch.json` file and put it inside the `.vsco
 
 Start your app by running `npm start`, and start debugging in VS Code by pressing `F5` or by clicking the green debug icon. You can now write code, set breakpoints, make changes to the code, and debug your newly modified code—all from your editor.
 
-## Changing the Page `<title>`
+## 改变页面`<title>`
 
 You can find the source HTML file in the `public` folder of the generated project. You may edit the `<title>` tag in it to change the title from “React App” to anything else.
 
