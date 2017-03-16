@@ -1,6 +1,6 @@
 此项目由 [创建React应用](https://github.com/facebookincubator/create-react-app)引导。
 
-你可以从下面找到如何执行常见任务的有关信息。<br>
+从下面找到如何执行常见任务的有关信息。<br>
 你可以从[这里](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README.md)找到本指南的最新版本 。
 
 ## 目录
@@ -18,9 +18,9 @@
 - [编辑器中显示lint输出](#编辑器中显示lint输出)
 - [在编辑器中调试](#在编辑器中调试)
 - [改变页面 `<title>`](#改变页面title)
-- [Installing a Dependency](#installing-a-dependency)
-- [Importing a Component](#importing-a-component)
-- [Adding a Stylesheet](#adding-a-stylesheet)
+- [安装依赖](#安装依赖)
+- [导入组件](#导入组件)
+- [添加样式表](#添加样式表)
 - [Post-Processing CSS](#post-processing-css)
 - [Adding a CSS Preprocessor (Sass, Less etc.)](#adding-a-css-preprocessor-sass-less-etc)
 - [Adding Images, Fonts, and Files](#adding-images-fonts-and-files)
@@ -291,7 +291,7 @@ If you need to dynamically update the page title based on the content, you can u
 
 If you use a custom server for your app in production and want to modify the title before it gets sent to the browser, you can follow advice in [this section](#generating-dynamic-meta-tags-on-the-server). Alternatively, you can pre-build each page as a static HTML file which then loads the JavaScript bundle, which is covered [here](#pre-rendering-into-static-html-files).
 
-## Installing a Dependency
+## 安装依赖
 
 The generated project includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency. You may install other dependencies (for example, React Router) with `npm`:
 
@@ -299,7 +299,7 @@ The generated project includes React and ReactDOM as dependencies. It also inclu
 npm install --save <library-name>
 ```
 
-## Importing a Component
+## 导入组件
 
 This project setup supports ES6 modules thanks to Babel.<br>
 While you can still use `require()` and `module.exports`, we encourage you to use [`import` and `export`](http://exploringjs.com/es6/ch_modules.html) instead.
@@ -348,7 +348,7 @@ Learn more about ES6 modules:
 * [Exploring ES6: Modules](http://exploringjs.com/es6/ch_modules.html)
 * [Understanding ES6: Modules](https://leanpub.com/understandinges6/read#leanpub-auto-encapsulating-code-with-modules)
 
-## Adding a Stylesheet
+## 添加样式表
 
 This project setup uses [Webpack](https://webpack.github.io/) for handling all assets. Webpack offers a custom way of “extending” the concept of `import` beyond JavaScript. To express that a JavaScript file depends on a CSS file, you need to **import the CSS from the JavaScript file**:
 
