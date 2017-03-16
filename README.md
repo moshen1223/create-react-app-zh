@@ -104,14 +104,14 @@ my-app/
 ### `npm run build` 或 `yarn build`
 
 将应用作为产品构建到 `build` 文件夹。<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+它在生产模式下正确打包React，并优化构建以获得最佳性能。
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+此构建是已压缩的，文件名含有散列值(hash)<br>
+现在你的应用可以部署了!
 
 ## 用户指南
 
-The [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) includes information on different topics, such as:
+[用户指南(未翻)](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) 包括不同话题的信息，例如：
 
 - [Updating to New Releases](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#updating-to-new-releases)
 - [Folder Structure](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#folder-structure)
@@ -145,29 +145,29 @@ The [User Guide](https://github.com/facebookincubator/create-react-app/blob/mast
 - [Advanced Configuration](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#advanced-configuration)
 - [Troubleshooting](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#troubleshooting)
 
-A copy of the user guide will be created as `README.md` in your project folder.
+用户指南的一份副本将会以 `README.md` 创建在你的项目文件夹下。
 
-## How to Update to New Versions?
+## 如何更新到新版本?
 
-Please refer to the [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#updating-to-new-releases) for this and other information.
+请参阅 [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#updating-to-new-releases) 以了解相关信息。
 
-## Philosophy
+## 理念
 
-* **One Dependency:** There is just one build dependency. It uses Webpack, Babel, ESLint, and other amazing projects, but provides a cohesive curated experience on top of them.
+* **单一依赖:** 只有一个构建依赖。 它使用了Webpack，Babel，ESLint和一些其他惊人项目，但提供了它们之上的体验。(译者注：屏蔽了这些工具的具体使用细节，体验更友好)
 
-* **No Configuration Required:** You don't need to configure anything. Reasonably good configuration of both development and production builds is handled for you so you can focus on writing code.
+* **无需配置:** 你不需要配置任何东西。 开发和生产的构建所需的合理配置都已经替你处理好了，因此可以专心撸代码了。
 
-* **No Lock-In:** You can “eject” to a custom setup at any time. Run a single command, and all the configuration and build dependencies will be moved directly into your project, so you can pick up right where you left off.
+* **无锁定:** 你可以随时“弹出”到自定义设置。 运行单个命令，所有需要的配置和依赖会直接移至你的项目中，因此可以从上次停下来的地方继续。
 
-## Why Use This?
+## 为什么用这个?
 
-**If you’re getting started** with React, use `create-react-app` to automate the build of your app. There is no configuration file, and `react-scripts` is the only extra build dependency in your `package.json`. Your environment will have everything you need to build a modern React app:
+**如果你已经入门了** React, 通过 `create-react-app` 命令来自动化应用的构建。没有配置文件， `package.json`中的`react-scripts` 是唯一额外的构建依赖。你的环境中将有构建一个现代化React应用所需的一切：
 
-* React, JSX, ES6, and Flow syntax support.
-* Language extras beyond ES6 like the object spread operator.
-* A dev server that lints for common errors.
-* Import CSS and image files directly from JavaScript.
-* Autoprefixed CSS, so you don’t need `-webkit` or other prefixes.
+* React, JSX, ES6, 和链式语法支持。
+* ES6之外的语言扩展，如对象扩展运算符。
+* 一个能检查出常见错误的开发服务器。
+* 直接从JavaScript导入CSS和图像文件。
+* 自动添加CSS前缀，因此不再需要`-webkit`或其它前缀。
 * A `build` script to bundle JS, CSS, and images for production, with sourcemaps.
 
 **The feature set is intentionally limited**. It doesn’t support advanced features such as server rendering or CSS modules. The tool is also **non-configurable** because it is hard to provide a cohesive experience and easy updates across a set of tools when the user can tweak anything.
