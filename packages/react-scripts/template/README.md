@@ -13,7 +13,7 @@
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
-- [支持的语言特性和Polyfills](#支持的语言特性和Polyfills)
+- [支持的语言特性和Polyfills](#支持的语言特性和polyfills)
 - [编辑器中的语法高亮](#编辑器中的语法高亮)
 - [编辑器中显示lint输出](#编辑器中显示lint输出)
 - [在编辑器中调试](#在编辑器中调试)
