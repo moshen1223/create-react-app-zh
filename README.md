@@ -201,7 +201,7 @@ my-app/
 
 创建React应用程序使用的工具可能会改变.
 目前许多神奇的社区项目基础还比较薄弱,例如:
-* [webpack](https://webpack.github.io/) 与 [webpack-dev-server](https://github.com/webpack/webpack-dev-server), [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin)和 [style-loader](https://github.com/webpack/style-loader)
+* [webpack](https://webpack.github.io/) 支持 [webpack-dev-server](https://github.com/webpack/webpack-dev-server), [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin) 支持 [style-loader](https://github.com/webpack/style-loader)
 * [Babel](http://babeljs.io/) 支持ES6并使用Facebook的扩展 (JSX, [object spread](https://github.com/sebmarkbage/ecmascript-rest-spread/commits/master), [class properties](https://github.com/jeffmo/es-class-public-fields))
 * [Autoprefixer](https://github.com/postcss/autoprefixer)
 * [ESLint](http://eslint.org/)
