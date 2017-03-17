@@ -94,7 +94,7 @@ Create React App 分为2个包:
 
 当你执行 `create-react-app` 时，它总是使用最新版的`react-scripts`创建项目， 因此在新创建的项目中将自动获得新的特性和改进。
 
-为了将已有项目升级到新版的`react-scripts`, [open the changelog](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md)，找到你当前所处的版本(如果不确定的话可以到当前目录下的`package.json`中查看)，并应用新版本的迁移说明。
+为了将已有项目升级到新版的`react-scripts`, [打开更新日志](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md)，找到你当前所处的版本(如果不确定的话可以到当前目录下的`package.json`中查看)，并应用新版本的迁移说明。
 
 In most cases bumping the `react-scripts` version in `package.json` and running `npm install` in this folder should be enough, but it’s good to consult the [changelog](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md) for potential breaking changes.
 
