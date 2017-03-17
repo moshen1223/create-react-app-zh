@@ -200,16 +200,15 @@ my-app/
 ## 内部都有什么？
 
 创建React应用程序使用的工具可能会改变.
-Currently it is a thin layer on top of many amazing community projects, such as:
-
-* [webpack](https://webpack.github.io/) with [webpack-dev-server](https://github.com/webpack/webpack-dev-server), [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin) and [style-loader](https://github.com/webpack/style-loader)
-* [Babel](http://babeljs.io/) with ES6 and extensions used by Facebook (JSX, [object spread](https://github.com/sebmarkbage/ecmascript-rest-spread/commits/master), [class properties](https://github.com/jeffmo/es-class-public-fields))
+目前许多神奇的社区项目基础还比较薄弱,例如:
+* [webpack](https://webpack.github.io/) 与 [webpack-dev-server](https://github.com/webpack/webpack-dev-server), [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin)和 [style-loader](https://github.com/webpack/style-loader)
+* [Babel](http://babeljs.io/) 支持ES6并使用Facebook的扩展 (JSX, [object spread](https://github.com/sebmarkbage/ecmascript-rest-spread/commits/master), [class properties](https://github.com/jeffmo/es-class-public-fields))
 * [Autoprefixer](https://github.com/postcss/autoprefixer)
 * [ESLint](http://eslint.org/)
 * [Jest](http://facebook.github.io/jest)
-* and others.
+* 其他.
 
-All of them are transitive dependencies of the provided npm package.
+他们都提供npm包来传递依赖关系的.
 
 ## 贡献
 
