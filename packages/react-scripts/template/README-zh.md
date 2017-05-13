@@ -1,4 +1,4 @@
-此项目由 [创建React应用](https://github.com/facebookincubator/create-react-app)引导。
+此项目由 [Create React App](https://github.com/facebookincubator/create-react-app)引导。
 
 从下面找到如何执行常见任务的有关信息。<br> 
 你可以从[这里](https://github.com/XanthusL/create-react-app-zh/blob/master/packages/react-scripts/template/README.md)找到本指南的最新版本 。
