@@ -127,13 +127,13 @@ my-app/
 
 对于要构建的项目，**以下文件必须以准确的文件名存在**:
 
-* `public/index.html` is the page template;
-* `src/index.js` is the JavaScript entry point.
+* `public/index.html` 是页面模板;
+* `src/index.js` 是JavaScript入口.
 
 你可以删除或重命名其他文件。
 
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.<br>
-You need to **put any JS and CSS files inside `src`**, or Webpack won’t see them.
+你可以在`src`中创建子目录。为了更快的构建， Webpack 只处理 `src` 目录下的文件<br>
+你需要 **把所有JS和CSS文件放在 `src`**, 否则Webpack识别不了它们。
 
 Only files inside `public` can be used from `public/index.html`.<br>
 Read instructions below for using assets from JavaScript and HTML.
@@ -143,7 +143,7 @@ They will not be included in the production build so you can use them for things
 
 ## 可用脚本
 
-In the project directory, you can run:
+在项目目录下，可以执行如下命令：
 
 ### `npm start`
 
