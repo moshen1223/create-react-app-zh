@@ -135,11 +135,13 @@ my-app/
 你可以在`src`中创建子目录。为了更快的构建， Webpack 只处理 `src` 目录下的文件<br>
 你需要 **把所有JS和CSS文件放在 `src`**, 否则Webpack识别不了它们。
 
-Only files inside `public` can be used from `public/index.html`.<br>
-Read instructions below for using assets from JavaScript and HTML.
+`public/index.html`只能用`public`中的文件.
 
-You can, however, create more top-level directories.<br>
-They will not be included in the production build so you can use them for things like documentation.
+以下是关于如何利用JavaScript和HTML中资源的说明
+
+不过你可以创建其他顶级目录
+
+生产构建不会包含这些目录，因此可以用来存放类似文档的文件。
 
 ## 可用脚本
 
@@ -147,20 +149,24 @@ They will not be included in the production build so you can use them for things
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+在开发模式下运行应用。
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+浏览器打开[http://localhost:3000](http://localhost:3000)就能看到页面
+
+当做出编辑后，该页面会刷新。
+
+另外在控制台能看到错误提示。
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
+观察交互模式下运行测试执行器。
+
+更多详细信息请参阅[running tests](#running-tests)
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
+将应用作为产品构建到`build`文件夹
+
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
